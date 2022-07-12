@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@700&display=swap");
+
+body {
+  background-color: #e5e5e5;
+}
+
+.header {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 15px;
+  max-width: 1282px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  display: block;
+  width: 44px;
+  height: 49px;
+  background-image: url(/img/logo.svg);
+}
+
+.logo-name {
+  display: block;
+  width: 140px;
+  height: 24px;
+  background-image: url(/img/shield.svg);
+}
+
+.nav a {
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+.nav button {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 11px 35px;
+  background-color: #03045e;
+}
+
+.banner {
+  max-width: 1282px;
+  margin: 0 auto;
+  max-width: 1282px;
+  margin: 0 auto;
+  background-image: url(/img/she&loptop.png); /*https://i.ibb.co/YpZJJLy/she-loptop.png*/
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right 3% center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.wrapper {
+  max-width: 556px;
+  color: #03045e;
+}
+.title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+.wrapper p {
+  font-family: "Poppins", sans-serif;
+  opacity: 50%;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 36px 0px;
+}
+
+.wrapper a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #0098ff;
+  padding: 17px 38px;
+  border-radius: 5px;
+}
+
+.witedomain {
+  background-color: #ffffff;
+  height: 400px;
+}
+
+.domain {
+  max-width: 1282px;
+  margin: 0 auto;
+  display: flex;
+  align-content: center;
+  padding: 0px 15px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.input h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  color: #03045e;
+}
+.inputbtn {
+  display: flex;
+}
+.inputbtn input {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 22px 215px 20px 22px;
+  border: 0px;
+  background-color: #f6f6f6;
+  border-radius: 5px 0px 0px 5px;
+  
+}
+
+
+/*focus для input*/
+:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #67676726;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem rgba(108, 108, 108, 0.129);
+}
+
+::placeholder {
+  font-family: "Poppins", sans-serif;
+  width: fit-content;
+  opacity: 50%;
+  font-size: 16px;
+  font-weight: 600;
+  transform: 0.3s ;
+}
+
+
+.inputbtn button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #0098ff;
+  border: none;
+  padding: 15px 38px 18px 38px;
+  border-radius: 0px 5px 5px 0px;
+  margin-left: 0px;
+}
