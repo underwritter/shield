@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@700&display=swap");
 
 body {
-  background-color: #e5e5e5;
+  background-color: #f7f8fd;
 }
 
 .header {
@@ -52,8 +52,6 @@ body {
 .banner {
   max-width: 1282px;
   margin: 0 auto;
-  max-width: 1282px;
-  margin: 0 auto;
   background-image: url(/img/she&loptop.png); /*https://i.ibb.co/YpZJJLy/she-loptop.png*/
   padding-top: 150px;
   padding-bottom: 150px;
@@ -94,15 +92,22 @@ body {
 }
 
 .witedomain {
+  display: flex;
+  justify-content: space-between;
   background-color: #ffffff;
   height: 400px;
+  width:auto;
+  
 }
 
-.domain {
+.searchdomain {
   max-width: 1282px;
   margin: 0 auto;
   display: flex;
-  align-content: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
   padding: 0px 15px;
 }
 
@@ -118,9 +123,11 @@ body {
   font-size: 32px;
   color: #03045e;
 }
+
 .inputbtn {
   display: flex;
 }
+
 .inputbtn input {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -131,7 +138,6 @@ body {
   border-radius: 5px 0px 0px 5px;
   
 }
-
 
 /*focus для input*/
 :focus {
@@ -159,7 +165,44 @@ body {
   color: #ffffff;
   background-color: #0098ff;
   border: none;
-  padding: 15px 38px 18px 38px;
   border-radius: 0px 5px 5px 0px;
   margin-left: 0px;
+  width: 159px;
+  height: 60px;
+}
+
+.line {
+  margin: 130px 69px 155px 69px;
+    border-left: 1px solid rgba(108, 108, 108, 0.129);
+    background-color:rgba(118, 117, 117, 0.035) ;
+}
+
+.priсedomain {
+  width: 1000px;
+  height: 134px;
+ display: flex;
+ flex-wrap: wrap;
+ padding-top: 135px;
+ justify-content: space-evenly;
+ margin-left: 0px;
+}
+
+.dom {
+  width: 33%;
+  height: 50%;
+}
+
+.namedomain {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #0098FF;
+}
+
+.pricedomain {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  opacity: 50%;
+  color: #03045E;
 }
