@@ -380,6 +380,7 @@ body {
   width: 390px;
   height: 243px;
   background-color: #f6f6f6;
+  margin: auto;
 }
 
 .comment {
@@ -423,6 +424,148 @@ body {
   height: 48px;
   width: 1282px;
   background-image: url(/img/rectangle.svg);
-  background-position: bottom 8px right 52%;
+  background-position: bottom 8px right 49.8%;
   background-repeat: no-repeat;
+}
+.resources {
+  background-color: #0098FF;
+  height: 315px;
+  width: auto;
+}
+.res {
+  padding: 100px 15px;
+  max-width: 1282px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.resblock {
+  width: 207px;
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quantity {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  color: #FFFFFF;
+  margin: auto;
+}
+
+.resname {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: auto;
+}
+
+.witeplan {
+ background-color: #FFFFFF;
+}
+
+.ourflexplan {
+  padding: 100px 15px;
+  max-width: 1282px;
+  height: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.witeplan h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #03045E;
+
+}
+
+.ourplan {
+  display: flex;
+}
+
+.flexplan {
+  width: 318px;
+  height: 593px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.3s ease; 
+}
+
+.flexplan:hover {
+  background-color: #0098ff;
+  color: #FFFFFF !important;
+}
+
+.flexplan:hover > .nameplan {
+  color: #FFFFFF;
+}
+
+.flexplan:hover > .priceplan {
+  color: #FFFFFF;
+}
+
+.flexplan:hover > .characteristic {
+  color: #FFFFFF;
+  opacity: 100%;
+}
+
+.nameplan {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #0098FF;
+  margin-bottom: 16px;
+  margin-top: 40px;
+  transition: 0.3s ease;
+}
+
+.priceplan {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  color: #03045E;
+  margin-bottom: 40px;
+  transition: 0.3s ease;
+}
+
+.characteristic {
+  width: 318px;
+  height: 41px;
+  border-bottom: solid 1px #ddddddb2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #03045e;
+  opacity: 50%;
+  transition: 0.3s ease;
+}
+
+.flexplan button {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 11px 35px;
+  background-color: #03045e;
+  transition: 0.3s ease;
+  border: none;
+  cursor: pointer;
+  margin: 50px 84px;
+}
+
+.flexplan button:hover {
+  background-color: #FFFFFF;
+  color: #03045E;
 }
